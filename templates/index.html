@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="welcome-section">
+    <h2><i class="fas fa-school"></i> Classes & Class Teachers</h2>
+    <p class="description">View all classes and their assigned class teachers in the system.</p>
+</div>
+
+<div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th><i class="fas fa-graduation-cap"></i> Class</th>
+                <th><i class="fas fa-user-tie"></i> Class Teacher</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in classes %}
+            <tr>
+                <td>{{ row.class_id }}</td>
+                <td>{{ row.class_teacher }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="stats-section">
+    <div class="stat-card">
+        <i class="fas fa-users"></i>
+        <div class="stat-info">
+            <span class="stat-number">{{ classes|length }}</span>
+            <span class="stat-label">Total Classes</span>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="welcome-section">
+    <h2><i class="fas fa-cogs"></i> Generate Timetable</h2>
+    <p class="description">Configure the time settings and generate optimized timetables using AI constraint satisfaction.</p>
+</div>
+
+<div class="form-container">
+    <form method="post">
+        <div class="form-group">
+            <label for="start_time"><i class="fas fa-clock"></i> Start Time:</label>
+            <input type="time" id="start_time" name="start_time" required>
+        </div>
+
+        <div class="form-group">
+            <label for="end_time"><i class="fas fa-clock"></i> End Time:</label>
+            <input type="time" id="end_time" name="end_time" required>
+        </div>
+
+        <button type="submit">
+            <i class="fas fa-play"></i> Generate Timetable
+        </button>
+    </form>
+</div>
+
+<div class="info-section">
+    <h3><i class="fas fa-info-circle"></i> How it works</h3>
+    <ul>
+        <li>The AI uses constraint satisfaction algorithms to create optimal timetables</li>
+        <li>Considers teacher availability, subject requirements, and class schedules</li>
+        <li>Ensures no conflicts and balanced workload distribution</li>
+        <li>Generates both class and teacher timetables automatically</li>
+    </ul>
+</div>
+{% endblock %}

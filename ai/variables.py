@@ -9,7 +9,7 @@ PERIODS_BY_DAY = {
     "TUESDAY":   ["P1","P2","P3","P4","P5","P6","P7","P8"],
     "WEDNESDAY": ["P1","P2","P3","P4","P5","P6","P7","P8"],
     "THURSDAY":  ["P1","P2","P3","P4","P5","P6","P7","P8"],
-    "FRIDAY":    ["P1","P2","P3","P4","P5","P6","P7","P8","P9"],
+    "FRIDAY":    ["P1","P2","P3","P4","P5","P6","P7","P8"],
     "SATURDAY":  ["P1","P2","P3","P4","P5","P6"]
 }
 

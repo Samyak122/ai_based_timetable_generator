@@ -1,9 +1,82 @@
 {
   "T1": {
-    "name": "Samyak",
+    "name": "Mrs. Sharma",
     "subjects": [
       "MARATHI",
       "HINDI"
+    ]
+  },
+  "T2": {
+    "name": "Mr. Patel",
+    "subjects": [
+      "ENGLISH",
+      "SOCIAL"
+    ]
+  },
+  "T3": {
+    "name": "Mrs. Gupta",
+    "subjects": [
+      "MATHS",
+      "SCIENCE"
+    ]
+  },
+  "T4": {
+    "name": "Mr. Singh",
+    "subjects": [
+      "ART",
+      "PE",
+      "WORK",
+      "PARISAR",
+      "SECURITY"
+    ]
+  },
+  "T5": {
+    "name": "Mrs. Kumar",
+    "subjects": [
+      "MARATHI",
+      "ENGLISH",
+      "SOCIAL"
+    ]
+  },
+  "T6": {
+    "name": "Mr. Joshi",
+    "subjects": [
+      "MATHS",
+      "SCIENCE",
+      "HINDI"
+    ]
+  },
+  "T7": {
+    "name": "Mrs. Desai",
+    "subjects": [
+      "ENGLISH",
+      "ART",
+      "PE",
+      "WATER_SAFETY"
+    ]
+  },
+  "T8": {
+    "name": "Mr. Mehta",
+    "subjects": [
+      "MATHS",
+      "SCIENCE",
+      "WORK"
+    ]
+  },
+  "T9": {
+    "name": "Mrs. Rao",
+    "subjects": [
+      "MARATHI",
+      "HINDI",
+      "SOCIAL"
+    ]
+  },
+  "T10": {
+    "name": "Mr. Nair",
+    "subjects": [
+      "ENGLISH",
+      "ART",
+      "PE"
     ]
   }
 }

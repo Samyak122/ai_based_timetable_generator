@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="welcome-section">
+    <h2><i class="fas fa-chalkboard-teacher"></i> Manage Class Teachers</h2>
+    <p class="description">Assign class teachers to classes. Class teachers must teach Period 1 (P1) every day.</p>
+</div>
+
+<div class="form-container">
+    <form method="post">
+        {% for class_info in classes %}
+        <div class="form-group">
+            <label for="class_teacher_{{ class_info.class_id }}">
+                <i class="fas fa-school"></i> {{ class_info.name }} ({{ class_info.class_id }})
+            </label>
+            <select id="class_teacher_{{ class_info.class_id }}" name="class_teacher_{{ class_info.class_id }}">
+                <option value="">-- Not Assigned --</option>
+                {% for tid, t in teachers.items() %}
+                <option value="{{ tid }}" {% if class_info.current_teacher_id == tid %}selected{% endif %}>
+                    {{ t.name }} ({{ tid }})
+                </option>
+                {% endfor %}
+            </select>
+            <small class="help-text">Current: {{ class_info.current_teacher_name }}</small>
+        </div>
+        {% endfor %}
+
+        <button type="submit">
+            <i class="fas fa-save"></i> Save Class Teacher Assignments
+        </button>
+    </form>
+</div>
+
+<div class="info-section">
+    <h3><i class="fas fa-info-circle"></i> Important Notes</h3>
+    <ul>
+        <li>Class teachers are automatically assigned to teach Period 1 (P1) every day</li>
+        <li>Each class can have only one class teacher</li>
+        <li>A teacher can be the class teacher for multiple classes</li>
+        <li>Changes take effect immediately and will be used in timetable generation</li>
+    </ul>
+</div>
+{% endblock %}

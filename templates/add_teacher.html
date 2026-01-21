@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="welcome-section">
+    <h2><i class="fas fa-user-plus"></i> Add New Teacher</h2>
+    <p class="description">Add a new teacher to the system with their assigned subjects.</p>
+</div>
+
+<div class="form-container">
+    <form method="post">
+        <div class="form-group">
+            <label for="teacher_id"><i class="fas fa-id-badge"></i> Teacher ID:</label>
+            <input type="text" id="teacher_id" name="teacher_id" required placeholder="e.g., T001">
+        </div>
+
+        <div class="form-group">
+            <label for="teacher_name"><i class="fas fa-user"></i> Teacher Name:</label>
+            <input type="text" id="teacher_name" name="teacher_name" required placeholder="Enter full name">
+        </div>
+
+        <div class="form-group">
+            <label><i class="fas fa-book"></i> Subjects:</label>
+            <div class="subjects-grid">
+                {% for sub in subjects %}
+                <label class="subject-checkbox">
+                    <input type="checkbox" name="subjects" value="{{ sub }}">
+                    <span class="checkmark"></span>
+                    {{ sub }}
+                </label>
+                {% endfor %}
+            </div>
+        </div>
+
+        <button type="submit">
+            <i class="fas fa-plus"></i> Add Teacher
+        </button>
+    </form>
+</div>
+{% endblock %}

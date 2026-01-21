@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="welcome-section">
+    <h2><i class="fas fa-users"></i> Teachers</h2>
+    <p class="description">View all teachers and their assigned subjects in the system.</p>
+</div>
+
+<div class="action-buttons">
+    <a href="{{ url_for('add_teacher_web') }}" class="btn-primary">
+        <i class="fas fa-plus"></i> Add New Teacher
+    </a>
+</div>
+
+<div class="table-container">
+    <table>
+        <thead>
+            <tr>
+                <th><i class="fas fa-id-badge"></i> ID</th>
+                <th><i class="fas fa-user"></i> Name</th>
+                <th><i class="fas fa-book"></i> Subjects</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for tid, t in teachers.items() %}
+            <tr>
+                <td>{{ tid }}</td>
+                <td>{{ t.name }}</td>
+                <td>
+                    {% for subject in t.subjects %}
+                    <span class="subject-tag">{{ subject }}</span>
+                    {% endfor %}
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="stats-section">
+    <div class="stat-card">
+        <i class="fas fa-chalkboard-teacher"></i>
+        <div class="stat-info">
+            <span class="stat-number">{{ teachers|length }}</span>
+            <span class="stat-label">Total Teachers</span>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Timetable Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-calendar-alt"></i> AI Timetable Generator</h1>
+            <nav>
+                <a href="{{ url_for('home') }}" class="nav-link"><i class="fas fa-home"></i> Home</a>
+                <a href="{{ url_for('teachers_page') }}" class="nav-link"><i class="fas fa-users"></i> Teachers</a>
+                <a href="{{ url_for('manage_class_teachers') }}" class="nav-link"><i class="fas fa-chalkboard-teacher"></i> Class Teachers</a>
+                <a href="{{ url_for('add_teacher_web') }}" class="nav-link"><i class="fas fa-user-plus"></i> Add Teacher</a>
+                <a href="{{ url_for('generate_page') }}" class="nav-link"><i class="fas fa-cogs"></i> Generate</a>
+                <a href="{{ url_for('class_timetable_page') }}" class="nav-link"><i class="fas fa-school"></i> Class Timetable</a>
+                <a href="{{ url_for('teacher_timetable_page') }}" class="nav-link"><i class="fas fa-user-tie"></i> Teacher Timetable</a>
+            </nav>
+        </header>
+
+        <main>
+            {% block content %}
+            {% endblock %}
+        </main>
+
+        <footer>
+            <p>&copy; 2024 AI Timetable Generator. Powered by Flask & Constraint Satisfaction.</p>
+        </footer>
+    </div>
+</body>
+</html>

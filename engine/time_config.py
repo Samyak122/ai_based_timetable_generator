@@ -32,7 +32,7 @@ DAY_RULES = {
         "has_lunch": True
     },
     "FRI": {
-        "periods": 9,
+        "periods": 8,
         "short_break_after": 3,
         "lunch_after": 5,
         "has_lunch": True
