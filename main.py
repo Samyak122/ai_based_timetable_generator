@@ -11,31 +11,25 @@ from engine.output_generator import (
 from engine.excel_export import export_pretty_excel
 
 
+def main():
+    variables = generate_variables(CLASSES)
+    domain = generate_domain()
 
-# Generate CSP components
-variables = generate_variables(CLASSES)
-domain = generate_domain()
+    print("⏳ Generating timetable...")
 
-# Solve timetable
-solution = solve(variables, domain, CLASSES)
+    solution = solve(variables, domain, CLASSES)
 
-print("=== TIMETABLE GENERATED ===")
+    print("✅ Timetable generated")
 
-# Generate tables
-class_tt = generate_class_timetable(solution)
-teacher_tt = generate_teacher_timetable(solution)
+    class_tt = generate_class_timetable(solution)
+    teacher_tt = generate_teacher_timetable(solution)
 
-export_pretty_excel(class_tt)
-print("✅ Pretty_Timetable.xlsx generated (P1 highlighted)")
+    export_pretty_excel(class_tt)
+    write_class_csv_with_time(class_tt, "10:30", "17:00")
+    write_teacher_csv(teacher_tt)
 
-# Write outputs
-write_class_csv_with_time(
-    class_tt,
-    start_time="10:30",
-    end_time="17:00"
-)
+    print("📁 Files generated successfully")
 
-write_teacher_csv(teacher_tt)
 
-print("✅ class_timetable.csv generated (with AM/PM)")
-print("✅ teacher_timetable.csv generated")
+if __name__ == "__main__":
+    main()

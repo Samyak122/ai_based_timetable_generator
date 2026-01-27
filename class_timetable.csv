@@ -1,1 +1,87 @@
 Class,Day,Period,Time (AM/PM),Subject (EN),Subject (MR),Teacher
+5A,SATURDAY,P6,03:30 PM - 04:57 PM,Hindi,हिंदी,Mrs. Sharma
+5A,SATURDAY,P5,02:03 PM - 03:30 PM,Social Science,सामाजिक शास्त्र,Mrs. Kumar
+5A,SATURDAY,P4,12:36 PM - 02:03 PM,Marathi,मराठी,Mrs. Rao
+5A,SATURDAY,P3,10:54 AM - 12:21 PM,Mathematics,गणित,Mrs. Gupta
+5A,SATURDAY,P2,09:27 AM - 10:54 AM,Science,विज्ञान,Mr. Mehta
+5A,TUESDAY,P2,09:00 AM - 10:00 AM,Water Safety,जल सुरक्षा,Mrs. Desai
+5A,TUESDAY,P3,10:00 AM - 11:00 AM,Art,कला,Mr. Nair
+5A,TUESDAY,P6,02:00 PM - 03:00 PM,Security Education,संरक्षण शिक्षण,Mr. Singh
+5A,TUESDAY,P1,08:00 AM - 09:00 AM,Mathematics,गणित,Mrs. Gupta
+5A,TUESDAY,P5,12:15 PM - 01:15 PM,Science,विज्ञान,Mr. Joshi
+5A,TUESDAY,P8,04:00 PM - 05:00 PM,Mathematics,गणित,Mrs. Gupta
+5A,TUESDAY,P7,03:00 PM - 04:00 PM,Hindi,हिंदी,Mr. Joshi
+5A,TUESDAY,P4,11:15 AM - 12:15 PM,Social Science,सामाजिक शास्त्र,Mrs. Kumar
+5A,WEDNESDAY,P6,02:00 PM - 03:00 PM,Work Experience,कार्यअनुभव,Mr. Mehta
+5A,WEDNESDAY,P8,04:00 PM - 05:00 PM,Science,विज्ञान,Mr. Mehta
+5A,WEDNESDAY,P2,09:00 AM - 10:00 AM,English,इंग्रजी,Mr. Nair
+5A,WEDNESDAY,P1,08:00 AM - 09:00 AM,Art,कला,Mr. Nair
+5A,WEDNESDAY,P3,10:00 AM - 11:00 AM,Marathi,मराठी,Mrs. Rao
+5A,WEDNESDAY,P4,11:15 AM - 12:15 PM,Hindi,हिंदी,Mrs. Rao
+5A,WEDNESDAY,P7,03:00 PM - 04:00 PM,Marathi,मराठी,Mrs. Rao
+5A,FRIDAY,P8,04:00 PM - 05:00 PM,English,इंग्रजी,Mrs. Desai
+5A,FRIDAY,P1,08:00 AM - 09:00 AM,Work Experience,कार्यअनुभव,Mr. Singh
+5A,FRIDAY,P5,12:15 PM - 01:15 PM,Social Science,सामाजिक शास्त्र,Mr. Patel
+5A,FRIDAY,P6,02:00 PM - 03:00 PM,English,इंग्रजी,Mr. Nair
+5A,FRIDAY,P2,09:00 AM - 10:00 AM,Social Science,सामाजिक शास्त्र,Mrs. Kumar
+5A,FRIDAY,P7,03:00 PM - 04:00 PM,Hindi,हिंदी,Mrs. Rao
+5A,FRIDAY,P3,10:00 AM - 11:00 AM,Mathematics,गणित,Mrs. Gupta
+5A,FRIDAY,P4,11:15 AM - 12:15 PM,Marathi,मराठी,Mrs. Sharma
+5A,THURSDAY,P3,10:00 AM - 11:00 AM,Mathematics,गणित,Mr. Joshi
+5A,THURSDAY,P1,08:00 AM - 09:00 AM,Mathematics,गणित,Mr. Joshi
+5A,THURSDAY,P2,09:00 AM - 10:00 AM,Physical Education,शा. शिक्षण,Mr. Nair
+5A,THURSDAY,P6,02:00 PM - 03:00 PM,Science,विज्ञान,Mr. Joshi
+5A,THURSDAY,P5,12:15 PM - 01:15 PM,English,इंग्रजी,Mr. Nair
+5A,THURSDAY,P4,11:15 AM - 12:15 PM,Science,विज्ञान,Mrs. Gupta
+5A,THURSDAY,P7,03:00 PM - 04:00 PM,Science,विज्ञान,Mrs. Gupta
+5A,THURSDAY,P8,04:00 PM - 05:00 PM,Marathi,मराठी,Mrs. Kumar
+5A,MONDAY,P3,10:00 AM - 11:00 AM,English,इंग्रजी,Mr. Nair
+5A,MONDAY,P4,11:15 AM - 12:15 PM,Environmental Studies,परिसर अभ्यास,Mr. Singh
+5A,MONDAY,P6,02:00 PM - 03:00 PM,Mathematics,गणित,Mrs. Gupta
+5A,MONDAY,P5,12:15 PM - 01:15 PM,Marathi,मराठी,Mrs. Kumar
+5A,MONDAY,P2,09:00 AM - 10:00 AM,Environmental Studies,परिसर अभ्यास,Mr. Singh
+5A,MONDAY,P8,04:00 PM - 05:00 PM,English,इंग्रजी,Mr. Patel
+5A,MONDAY,P1,08:00 AM - 09:00 AM,Physical Education,शा. शिक्षण,Mrs. Desai
+6A,SATURDAY,P6,03:30 PM - 04:57 PM,Hindi,हिंदी,Mr. Joshi
+6A,SATURDAY,P4,12:36 PM - 02:03 PM,Science,विज्ञान,Mr. Mehta
+6A,SATURDAY,P1,08:00 AM - 09:27 AM,Art,कला,Mrs. Desai
+6A,SATURDAY,P5,02:03 PM - 03:30 PM,Hindi,हिंदी,Mr. Joshi
+6A,SATURDAY,P2,09:27 AM - 10:54 AM,English,इंग्रजी,Mr. Nair
+6A,SATURDAY,P3,10:54 AM - 12:21 PM,Marathi,मराठी,Mrs. Kumar
+6A,THURSDAY,P6,02:00 PM - 03:00 PM,Work Experience,कार्यअनुभव,Mr. Mehta
+6A,THURSDAY,P3,10:00 AM - 11:00 AM,English,इंग्रजी,Mrs. Desai
+6A,THURSDAY,P4,11:15 AM - 12:15 PM,Security Education,संरक्षण शिक्षण,Mr. Singh
+6A,THURSDAY,P1,08:00 AM - 09:00 AM,Social Science,सामाजिक शास्त्र,Mr. Patel
+6A,THURSDAY,P2,09:00 AM - 10:00 AM,Work Experience,कार्यअनुभव,Mr. Mehta
+6A,THURSDAY,P8,04:00 PM - 05:00 PM,Science,विज्ञान,Mr. Joshi
+6A,THURSDAY,P5,12:15 PM - 01:15 PM,Mathematics,गणित,Mr. Joshi
+6A,TUESDAY,P4,11:15 AM - 12:15 PM,Art,कला,Mr. Singh
+6A,TUESDAY,P3,10:00 AM - 11:00 AM,English,इंग्रजी,Mr. Patel
+6A,TUESDAY,P7,03:00 PM - 04:00 PM,Physical Education,शा. शिक्षण,Mr. Singh
+6A,TUESDAY,P6,02:00 PM - 03:00 PM,English,इंग्रजी,Mrs. Kumar
+6A,TUESDAY,P5,12:15 PM - 01:15 PM,Science,विज्ञान,Mr. Mehta
+6A,TUESDAY,P2,09:00 AM - 10:00 AM,Environmental Studies,परिसर अभ्यास,Mr. Singh
+6A,TUESDAY,P8,04:00 PM - 05:00 PM,Marathi,मराठी,Mrs. Sharma
+6A,FRIDAY,P1,08:00 AM - 09:00 AM,Social Science,सामाजिक शास्त्र,Mrs. Rao
+6A,FRIDAY,P6,02:00 PM - 03:00 PM,Hindi,हिंदी,Mrs. Sharma
+6A,FRIDAY,P2,09:00 AM - 10:00 AM,English,इंग्रजी,Mr. Patel
+6A,FRIDAY,P4,11:15 AM - 12:15 PM,Social Science,सामाजिक शास्त्र,Mr. Patel
+6A,FRIDAY,P5,12:15 PM - 01:15 PM,Science,विज्ञान,Mr. Mehta
+6A,FRIDAY,P7,03:00 PM - 04:00 PM,Marathi,मराठी,Mrs. Kumar
+6A,FRIDAY,P3,10:00 AM - 11:00 AM,Water Safety,जल सुरक्षा,Mrs. Desai
+6A,FRIDAY,P8,04:00 PM - 05:00 PM,Mathematics,गणित,Mrs. Gupta
+6A,WEDNESDAY,P7,03:00 PM - 04:00 PM,Hindi,हिंदी,Mr. Joshi
+6A,WEDNESDAY,P5,12:15 PM - 01:15 PM,Mathematics,गणित,Mr. Joshi
+6A,WEDNESDAY,P8,04:00 PM - 05:00 PM,Physical Education,शा. शिक्षण,Mr. Nair
+6A,WEDNESDAY,P6,02:00 PM - 03:00 PM,Marathi,मराठी,Mrs. Rao
+6A,WEDNESDAY,P2,09:00 AM - 10:00 AM,Marathi,मराठी,Mrs. Rao
+6A,WEDNESDAY,P4,11:15 AM - 12:15 PM,English,इंग्रजी,Mrs. Desai
+6A,WEDNESDAY,P3,10:00 AM - 11:00 AM,Mathematics,गणित,Mr. Mehta
+6A,WEDNESDAY,P1,08:00 AM - 09:00 AM,Mathematics,गणित,Mr. Joshi
+6A,MONDAY,P2,09:00 AM - 10:00 AM,Science,विज्ञान,Mr. Joshi
+6A,MONDAY,P5,12:15 PM - 01:15 PM,Social Science,सामाजिक शास्त्र,Mr. Patel
+6A,MONDAY,P1,08:00 AM - 09:00 AM,Science,विज्ञान,Mr. Mehta
+6A,MONDAY,P3,10:00 AM - 11:00 AM,Mathematics,गणित,Mr. Joshi
+6A,MONDAY,P4,11:15 AM - 12:15 PM,Mathematics,गणित,Mr. Joshi
+6A,MONDAY,P6,02:00 PM - 03:00 PM,Environmental Studies,परिसर अभ्यास,Mr. Singh
+6A,MONDAY,P8,04:00 PM - 05:00 PM,Marathi,मराठी,Mrs. Rao

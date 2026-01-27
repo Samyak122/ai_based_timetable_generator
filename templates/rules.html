@@ -1,0 +1,153 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="welcome-section">
+    <h2><i class="fas fa-book"></i> Timetable Generator – Rules & Constraints</h2>
+    <p class="description">Comprehensive rules and constraints that govern the AI-powered timetable generation system.</p>
+</div>
+
+<div class="rules-container">
+    <div class="rule-section">
+        <h3><i class="fas fa-school"></i> Basic Structure Rules</h3>
+        <ul>
+            <li><strong>School Days:</strong> Timetable is generated only for working days (e.g., Monday–Friday or Monday–Saturday).</li>
+            <li><strong>Periods per Day:</strong> Each day contains a fixed number of periods (e.g., 6–8).</li>
+            <li><strong>Break Periods:</strong>
+                <ul>
+                    <li>Short break and lunch break are fixed.</li>
+                    <li>No subject or teacher is assigned during breaks.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="rule-section">
+        <h3><i class="fas fa-user-tie"></i> Teacher Allocation Rules</h3>
+        <ul>
+            <li><strong>One Teacher per Period:</strong> A teacher can teach only one class at a time.</li>
+            <li><strong>Teacher Availability:</strong>
+                <ul>
+                    <li>Teachers are assigned only during their available hours.</li>
+                    <li>If unavailable, the system skips that slot.</li>
+                </ul>
+            </li>
+            <li><strong>Maximum Load:</strong> Each teacher has a maximum number of periods per day/week.</li>
+            <li><strong>Class Teacher Rule:</strong>
+                <ul>
+                    <li>Each class can have one class teacher.</li>
+                    <li>Class teacher gets priority for the first period (if enabled).</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="rule-section">
+        <h3><i class="fas fa-book"></i> Subject Rules</h3>
+        <ul>
+            <li><strong>Subject Frequency:</strong> Each subject has a fixed number of periods per week.</li>
+            <li><strong>No Subject Repetition:</strong> Same subject should not repeat consecutively in a day (unless allowed).</li>
+            <li><strong>Lab / Practical Sessions:</strong>
+                <ul>
+                    <li>Labs require continuous periods (e.g., 2 periods together).</li>
+                    <li>Labs are assigned only in allowed slots.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="rule-section">
+        <h3><i class="fas fa-users"></i> Class Rules</h3>
+        <ul>
+            <li><strong>No Free Periods (Optional):</strong> Classes should not have empty periods unless explicitly allowed.</li>
+            <li><strong>Balanced Load:</strong> Subjects are distributed evenly across the week.</li>
+            <li><strong>Room Constraints (Optional):</strong> If rooms are defined, one room can host only one class at a time.</li>
+        </ul>
+    </div>
+
+    <div class="rule-section">
+        <h3><i class="fas fa-exclamation-triangle"></i> Conflict Handling Rules</h3>
+        <ul>
+            <li><strong>Conflict Detection:</strong> System automatically prevents teacher, subject, or room clashes.</li>
+            <li><strong>Auto Reassignment:</strong> If conflict occurs, the system retries with another valid slot.</li>
+            <li><strong>Fail-Safe Rule:</strong> If no valid timetable is possible, system shows an error message instead of incorrect output.</li>
+        </ul>
+    </div>
+
+    <div class="rule-section">
+        <h3><i class="fas fa-cogs"></i> Admin / User Control Rules</h3>
+        <ul>
+            <li><strong>Manual Override:</strong> Admin can manually edit any generated timetable.</li>
+            <li><strong>Regenerate Option:</strong> Timetable can be regenerated anytime with updated rules.</li>
+            <li><strong>Multiple Sections Support:</strong> Same subject can be taught to different divisions by different teachers.</li>
+        </ul>
+    </div>
+
+    <div class="rule-section">
+        <h3><i class="fas fa-file-export"></i> Output Rules</h3>
+        <ul>
+            <li><strong>Readable Format:</strong> Timetable is displayed in table format (Day × Period).</li>
+            <li><strong>Export Options:</strong> Timetable can be printed or exported (PDF / Excel – optional).</li>
+            <li><strong>Consistency:</strong> Same input always follows the same rules for generation.</li>
+        </ul>
+    </div>
+</div>
+
+<style>
+.rules-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.rule-section {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.rule-section h3 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.rule-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rule-section li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.rule-section li::before {
+    content: "✓";
+    color: #27ae60;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.rule-section li strong {
+    color: #2c3e50;
+}
+
+.rule-section ul ul {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.rule-section ul ul li {
+    margin-bottom: 5px;
+}
+
+.rule-section ul ul li::before {
+    content: "•";
+    color: #3498db;
+}
+</style>
+{% endblock %}

@@ -1,1 +1,87 @@
 Teacher,Day,Period,Class,Subject (EN),Subject (MR)
+Mrs. Sharma,SATURDAY,P6,5A,Hindi,हिंदी
+Mrs. Sharma,FRIDAY,P4,5A,Marathi,मराठी
+Mrs. Sharma,FRIDAY,P6,6A,Hindi,हिंदी
+Mrs. Sharma,TUESDAY,P8,6A,Marathi,मराठी
+Mrs. Desai,TUESDAY,P2,5A,Water Safety,जल सुरक्षा
+Mrs. Desai,FRIDAY,P8,5A,English,इंग्रजी
+Mrs. Desai,FRIDAY,P3,6A,Water Safety,जल सुरक्षा
+Mrs. Desai,MONDAY,P1,5A,Physical Education,शा. शिक्षण
+Mrs. Desai,THURSDAY,P3,6A,English,इंग्रजी
+Mrs. Desai,SATURDAY,P1,6A,Art,कला
+Mrs. Desai,WEDNESDAY,P4,6A,English,इंग्रजी
+Mr. Nair,TUESDAY,P3,5A,Art,कला
+Mr. Nair,WEDNESDAY,P2,5A,English,इंग्रजी
+Mr. Nair,WEDNESDAY,P1,5A,Art,कला
+Mr. Nair,WEDNESDAY,P8,6A,Physical Education,शा. शिक्षण
+Mr. Nair,FRIDAY,P6,5A,English,इंग्रजी
+Mr. Nair,MONDAY,P3,5A,English,इंग्रजी
+Mr. Nair,THURSDAY,P2,5A,Physical Education,शा. शिक्षण
+Mr. Nair,THURSDAY,P5,5A,English,इंग्रजी
+Mr. Nair,SATURDAY,P2,6A,English,इंग्रजी
+Mr. Mehta,WEDNESDAY,P6,5A,Work Experience,कार्यअनुभव
+Mr. Mehta,WEDNESDAY,P8,5A,Science,विज्ञान
+Mr. Mehta,WEDNESDAY,P3,6A,Mathematics,गणित
+Mr. Mehta,SATURDAY,P2,5A,Science,विज्ञान
+Mr. Mehta,SATURDAY,P4,6A,Science,विज्ञान
+Mr. Mehta,THURSDAY,P6,6A,Work Experience,कार्यअनुभव
+Mr. Mehta,THURSDAY,P2,6A,Work Experience,कार्यअनुभव
+Mr. Mehta,FRIDAY,P5,6A,Science,विज्ञान
+Mr. Mehta,TUESDAY,P5,6A,Science,विज्ञान
+Mr. Mehta,MONDAY,P1,6A,Science,विज्ञान
+Mrs. Kumar,SATURDAY,P5,5A,Social Science,सामाजिक शास्त्र
+Mrs. Kumar,SATURDAY,P3,6A,Marathi,मराठी
+Mrs. Kumar,FRIDAY,P2,5A,Social Science,सामाजिक शास्त्र
+Mrs. Kumar,FRIDAY,P7,6A,Marathi,मराठी
+Mrs. Kumar,MONDAY,P5,5A,Marathi,मराठी
+Mrs. Kumar,TUESDAY,P4,5A,Social Science,सामाजिक शास्त्र
+Mrs. Kumar,TUESDAY,P6,6A,English,इंग्रजी
+Mrs. Kumar,THURSDAY,P8,5A,Marathi,मराठी
+Mr. Singh,TUESDAY,P6,5A,Security Education,संरक्षण शिक्षण
+Mr. Singh,TUESDAY,P4,6A,Art,कला
+Mr. Singh,TUESDAY,P7,6A,Physical Education,शा. शिक्षण
+Mr. Singh,TUESDAY,P2,6A,Environmental Studies,परिसर अभ्यास
+Mr. Singh,FRIDAY,P1,5A,Work Experience,कार्यअनुभव
+Mr. Singh,MONDAY,P4,5A,Environmental Studies,परिसर अभ्यास
+Mr. Singh,MONDAY,P2,5A,Environmental Studies,परिसर अभ्यास
+Mr. Singh,MONDAY,P6,6A,Environmental Studies,परिसर अभ्यास
+Mr. Singh,THURSDAY,P4,6A,Security Education,संरक्षण शिक्षण
+Mrs. Gupta,TUESDAY,P1,5A,Mathematics,गणित
+Mrs. Gupta,TUESDAY,P8,5A,Mathematics,गणित
+Mrs. Gupta,MONDAY,P6,5A,Mathematics,गणित
+Mrs. Gupta,FRIDAY,P3,5A,Mathematics,गणित
+Mrs. Gupta,FRIDAY,P8,6A,Mathematics,गणित
+Mrs. Gupta,SATURDAY,P3,5A,Mathematics,गणित
+Mrs. Gupta,THURSDAY,P4,5A,Science,विज्ञान
+Mrs. Gupta,THURSDAY,P7,5A,Science,विज्ञान
+Mr. Patel,FRIDAY,P5,5A,Social Science,सामाजिक शास्त्र
+Mr. Patel,FRIDAY,P2,6A,English,इंग्रजी
+Mr. Patel,FRIDAY,P4,6A,Social Science,सामाजिक शास्त्र
+Mr. Patel,MONDAY,P8,5A,English,इंग्रजी
+Mr. Patel,MONDAY,P5,6A,Social Science,सामाजिक शास्त्र
+Mr. Patel,TUESDAY,P3,6A,English,इंग्रजी
+Mr. Patel,THURSDAY,P1,6A,Social Science,सामाजिक शास्त्र
+Mr. Joshi,TUESDAY,P5,5A,Science,विज्ञान
+Mr. Joshi,TUESDAY,P7,5A,Hindi,हिंदी
+Mr. Joshi,THURSDAY,P3,5A,Mathematics,गणित
+Mr. Joshi,THURSDAY,P1,5A,Mathematics,गणित
+Mr. Joshi,THURSDAY,P6,5A,Science,विज्ञान
+Mr. Joshi,THURSDAY,P8,6A,Science,विज्ञान
+Mr. Joshi,THURSDAY,P5,6A,Mathematics,गणित
+Mr. Joshi,SATURDAY,P6,6A,Hindi,हिंदी
+Mr. Joshi,SATURDAY,P5,6A,Hindi,हिंदी
+Mr. Joshi,WEDNESDAY,P7,6A,Hindi,हिंदी
+Mr. Joshi,WEDNESDAY,P5,6A,Mathematics,गणित
+Mr. Joshi,WEDNESDAY,P1,6A,Mathematics,गणित
+Mr. Joshi,MONDAY,P2,6A,Science,विज्ञान
+Mr. Joshi,MONDAY,P3,6A,Mathematics,गणित
+Mr. Joshi,MONDAY,P4,6A,Mathematics,गणित
+Mrs. Rao,WEDNESDAY,P3,5A,Marathi,मराठी
+Mrs. Rao,WEDNESDAY,P4,5A,Hindi,हिंदी
+Mrs. Rao,WEDNESDAY,P7,5A,Marathi,मराठी
+Mrs. Rao,WEDNESDAY,P6,6A,Marathi,मराठी
+Mrs. Rao,WEDNESDAY,P2,6A,Marathi,मराठी
+Mrs. Rao,FRIDAY,P7,5A,Hindi,हिंदी
+Mrs. Rao,FRIDAY,P1,6A,Social Science,सामाजिक शास्त्र
+Mrs. Rao,SATURDAY,P4,5A,Marathi,मराठी
+Mrs. Rao,MONDAY,P8,6A,Marathi,मराठी
